@@ -238,7 +238,7 @@ const AdminDashboard = () => {
     } catch (error) {
       console.error("Error fetching user details:", error);
       setResponse({ message: "Error: Something went wrong" });
-      setModalType("response");
+      setModalType("monthlyBusiness");
     }
   };
 
